@@ -1,5 +1,5 @@
 # Usamos una imagen base con Python 2 y Debian
-FROM python:2.7-slim
+FROM python:2.7
 
 # Instalamos OpenSSH Server
 RUN apt-get update && \
